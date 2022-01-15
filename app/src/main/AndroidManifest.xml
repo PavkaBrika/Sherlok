@@ -11,7 +11,8 @@
         android:theme="@style/Theme.Sherlok">
         <activity
             android:name=".SecondActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Передача данных"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
