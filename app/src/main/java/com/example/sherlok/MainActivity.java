@@ -16,11 +16,14 @@ public class MainActivity extends AppCompatActivity {
 
         Button button = (Button) findViewById(R.id.btn);
 
+
+
         button.setOnClickListener(new View.OnClickListener() {
+            static final private int CHOOSE_THIEF = 0;
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-                startActivity(intent);
+                startActivityForResult(intent, CHOOSE_THIEF)    ;
             }
         });
     }

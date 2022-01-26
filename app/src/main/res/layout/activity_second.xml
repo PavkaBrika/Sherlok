@@ -15,6 +15,7 @@
         android:textSize="20sp" />
 
     <RadioButton
+        android:id="@+id/radioCrow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ворона"
@@ -23,6 +24,7 @@
         android:paddingLeft="5dp"/>
 
     <RadioButton
+        android:id="@+id/radioDog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Песик"
@@ -31,6 +33,7 @@
         android:paddingLeft="5dp"/>
 
     <RadioButton
+        android:id="@+id/radioCat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Кот"
